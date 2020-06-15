@@ -23,6 +23,7 @@ import { PessoasComponent } from './pessoas/pessoas.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
 import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
+import { CadastroPessoaComponent } from './cadastro-pessoa/cadastro-pessoa.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-ca
     PessoasComponent,
     NavbarComponent,
     LancamentoCadastroComponent,
+    CadastroPessoaComponent,
   ],
   imports: [
     BrowserModule,
